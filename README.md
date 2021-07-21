@@ -1,44 +1,17 @@
 # bg-steal
 
-FIXME: description
+윈도우 로그인 화면을 바탕화면으로 가져오는 프로그램
 
 ## Installation
 
-Download from http://example.com/FIXME.
+git clone https://github.com/ch3224bin/bg-steal.git
 
-## Usage
+cd bg-steal
 
-FIXME: explanation
+sudo apt install leiningen
 
-    $ java -jar bg-steal-0.1.0-standalone.jar [args]
+lein new app bg-steal
 
-## Options
+## TODO
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2021 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+이미지 경로 properties로 분리
